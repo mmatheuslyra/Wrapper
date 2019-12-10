@@ -14,6 +14,12 @@ emb.setEnv('remote')
 emb.Word2vec()
 emb.Wang2vec()
 ```
+* The default algorithm execution utilizes the parameter sets as predefined in the environment files, although, it is possible to inform different parameters directly in the command line.
+
+```python
+emb.Word2vec(train = 'test.txt', window = 8)
+```
+
 ### Environment Definitions
 
 To execute the algorithms remotely, it is necessary to specify the new environments in the "environment" directory. 
