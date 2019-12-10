@@ -16,8 +16,7 @@ emb.Wang2vec()
 ```
 ### Environment Definitions
 
-The environment definitions must to be done to run the algorithm in remotely.
-The access must be setted in a file in the environmet directory.
+To execute the algorithms remotely, it is necessary to specify the new environments in the "environment" directory. 
 
 ### Prerequisites
 
