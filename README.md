@@ -14,6 +14,11 @@ emb.setEnv('remote')
 emb.Word2vec()
 emb.Wang2vec()
 ```
+### Environment Definitions
+
+The environment definitions must to be done to run the algorithm in remotely.
+The access must be setted in a file in the environmet directory.
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
