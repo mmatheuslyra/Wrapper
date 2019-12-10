@@ -77,7 +77,30 @@ class Embeddings:
 
     #implementar
     def pWord2vecMPI(self):
-        print("Hello World")
+        train = train if train != None else self.data["train"]
+        output = output if output != None else self.data["output"]
+        cbow = cbow if cbow != None else self.data["cbow"]
+        size = size if size != None else self.data["size"]
+        window =  window if window != None else self.data["window"]
+        negative = negative if negative != None else self.data["negative"]
+        hs = hs if hs != None else self.data["hs"]
+        sample = sample if sample != None else self.data["sample"]
+        threads = threads if threads != None else self.data["threads"]
+        binary = binary if binary != None else self.data["binary"]
+        iter = iter if iter != None else self.data["iter"]
+        mincount = mincount if mincount != None else self.data["mincount"]
+        batchSize = batchSize if batchSize != None else self.data["batch-size"]
+        local = local if local != None else self.data["local"]
+        user = user if user != None else self.data["user"]
+        UserServer = UserServer if UserServer != None else self.data["UserServer"]
+        password = password if password != None else self.data["password"]
+        nodes = nodes if nodes != None else self.data["nodes"]
+        cluster = cluster if cluster != None else self.data["cluster"]
+        ppn = ppn if ppn != None else self.data["ppn"]
+        walltime = walltime if walltime != None else self.data["walltime"]
+        email = email if email != None else self.data["email"]
+        os.system("chmod +x pWord2vec_MPI.sh")
+        os.system("./pWord2vec_MPI.sh %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s"%(train, output, cbow, size, window, negative, hs, sample, threads, binary, iter, mincount, local, user, UserServer, password, nodes, cluster, ppn, walltime, email, batchSize))
 
     #testar
     def Wang2vec(self, train = None, output = None, mType = None, cbow = None , size = None, window =  None, negative = None, hs = None, sample = None, threads = None, binary = None, iter = None, mincount = None, batchSize = None, local = None, user = None, UserServer = None, password = None, nodes = None, cluster = None, ppn = None, walltime = None, email = None):
