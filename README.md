@@ -6,8 +6,9 @@ This tool allows the NLP community to run the mentioned algorithms in different 
 
 This tool is ment to be used from a Python terminal, that so, here is an example of how it can be used.
 
-```
+```python
 import wrapper
+
 emb = wrapper.Embeddings()
 emb.setEnv('remote')
 emb.Word2vec()
