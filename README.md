@@ -23,11 +23,3 @@ emb.Word2vec(train = 'test.txt', window = 8)
 ### Environment Definitions
 
 To execute the algorithms remotely, it is necessary to specify the new environments in the "environment" directory. 
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
