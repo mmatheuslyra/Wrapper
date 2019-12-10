@@ -1,0 +1,26 @@
+
+{
+	"train" : "text8",
+	"output" : "vectors.txt",
+	"cbow" : 0,
+	"size" : 10,
+	"window" : 8,
+	"negative" : 5,
+	"hs" : 0,
+	"sample" : 1e-4,
+	"threads" : 24,
+	"binary" : 0,
+	"iter" : 15,
+	"mincount" : 5,
+	"batch-size": 17,
+	"local" : 0,
+	"user" : "username",
+	"UserServer" : "username@domain",
+	"password" : "password",
+	"nodes" : "1",
+	"cluster" : "clusterName",
+	"ppn" : "24",
+	"walltime" : "00:10:00",
+	"email" : "email",
+	"type" : "0"
+}
